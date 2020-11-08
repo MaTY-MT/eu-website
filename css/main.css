@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Commissioner:wght@100;400;700&display=swap');
+body {
+    font-family: 'Commissioner', sans-serif;
+    color: white;
+    background: url("https://images.unsplash.com/photo-1557496866-e27ec3a7e4ef?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjI0MX0") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.main {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#icon {
+    color: #ffffff;
+    font-size: 55px;
+    text-align: center;
+    transition-duration: 0.5s;
+}
+#icon:hover {
+    color: #c7c7c7;
+}
+h1 {
+    font-size: 50px;
+}
+h2 {
+    font-weight: 100;
+    font-size: 23px;
+}
+h2 a {
+    color: white;
+    transition-duration: 500ms;
+}
+a {
+    color: white;
+    transition-duration: 500ms;
+}
+a:hover {
+    color: #c7c7c7
+}
+h2 a:hover {
+    color: white;
+}
+.projects {
+    background-color: #3d3d3d;
+    margin: 29px;
+    border: 10px #3d3d3d solid;
+    border-radius: 10px;
+}
